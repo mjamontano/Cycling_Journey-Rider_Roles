@@ -1,0 +1,156 @@
+<style>
+  /* Basic CSS Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+    /* Header styles */
+  header {
+    background-color: #2d2d66;
+    color: #ddd;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .banner {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+
+    /* Logo styling */
+  .logo {
+    background-color: rgba(45, 45, 102, 0.90); /* Background color of the logo */
+    border: inset #8366ad; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: #fff; /* Change the color as needed */
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 2;
+  }
+
+
+  /* Body styles */
+  body {
+    background-image: url('logo.png');
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    background-position: center;
+  }
+
+  .center-container {
+    text-align: right;
+  }
+
+  /* Content styles */
+  .content {
+    background-image: url('banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 23px;
+    padding: 90px;
+    text-align: right;
+    color: #ddd; /* Set text color for better readability */
+    font-family: Arial, Helvetica, sans-serif; /* Set your preferred font stack */
+    background-color: #2d2d66;
+}
+
+ /* Content styles */
+ .content1 {
+  background-color: #ffffff;
+  background-image: url('roles.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid;
+  border-radius: 5px;
+  padding: 250px;
+}
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .banner {
+      font-size: 20px;
+    }
+  }
+
+/* Style for the home button */
+.home-button {
+  display: inline-block;
+  background-color: #2d2d66;
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: inset #8366ad;
+}
+
+.home-button:hover {
+  background-color: #2d2d66; /* Darker shade of the primary color on hover */
+}
+
+img {
+  border: inset #2d2d66;
+  height: auto;
+  width: 500px;
+  position: center;
+}
+
+.table-container {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+table1, table2, table3, th, td {
+  border: inset #2d2d66;
+}
+
+th, td, h2, h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+  color: #2d2d66;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  color: #2d2d66;
+}
+
+/* Set fixed widths for columns */
+th:nth-child(1), td:nth-child(1) {
+  width: 1000px;
+}
+  
+th:nth-child(2), td:nth-child(2) {
+  width: 1000px;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 1000px;
+}
+
+th:nth-child(4), td:nth-child(4) {
+  width: 1000px;
+}
+
+</style>
